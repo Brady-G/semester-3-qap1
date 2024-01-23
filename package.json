@@ -1,0 +1,19 @@
+{
+  "name": "qap1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buffer": "node buffer_example.js",
+    "console": "node console_example.js",
+    "process": "node process_example.js",
+    
+    "task1": "npm run buffer && npm run console && npm run process",
+    "task2": "node task2.js"
+  },
+  "author": "Brady Green",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
